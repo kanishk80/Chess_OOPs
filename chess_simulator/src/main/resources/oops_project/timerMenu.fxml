@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oops_project.controller.TimerMenuController">
+    <Label text="Timer Mode" style="-fx-font-size: 20;" />
+    <TextField fx:id="timerInput" promptText="Enter timer in minutes" />
+    <HBox alignment="CENTER" spacing="10">
+        <Button text="Start Game" onAction="#startGameWithTimer" />
+        <Button text="Back to Menu" onAction="#backToMenu" />
+        <Button text="Exit" onAction="#exitGame" />
+    </HBox>
+</VBox>

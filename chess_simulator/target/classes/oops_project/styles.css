@@ -1,0 +1,18 @@
+.timer-box {
+    -fx-padding: 5;
+    -fx-border-width: 3;
+    -fx-border-color: transparent; /* Default - no border */
+    -fx-background-color: #f9f9f9;
+    -fx-border-radius: 5;
+}
+
+.timer-box.active {
+    -fx-border-color: #00ff00; /* Green border for the active player */
+}
+
+.image-view {
+    -fx-background-color: transparent; /* Ensure background is transparent */
+    -fx-padding: 0; /* Remove padding */
+    -fx-border-color: transparent; /* Remove any borders */
+    -fx-border-width: 0;
+}
